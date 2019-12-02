@@ -1,1 +1,31 @@
+ВАриант 4
 
+
+
+CREATE TABLE IF NOT EXISTS `users` (
+ `name` varchar(20) NOT NULL AUTO_INCREMENT,
+ `text` varchar(50) NOT NULL,
+ `date` date(20) NOT NULL,
+ PRIMARY KEY (`name`)
+ ) default charset=utf8;
+ INSERT INTO `users` (`name`,`text`,`date`) VALUES
+ ('abc','dfgfd','2018-01-01 10:10:11 '),
+ ('sunny','fdgfd','','2018-01-01 10:10:11'),
+ ('bcd','gfdgdf','2018-01-01 11:10:11'),
+ ('sgk','sgdsdg','2019-01-01 10:10:11'),
+ ('kn','sgdsgd','2017-01-01 10:10:11'),
+ ('obc','sdggsd','2016-01-01 10:10:11'),
+ ('osg','sdggsd','2015-01-01 10:11:11'),
+ ('olv','sdgsdgsd','2014-01-01 10:12:11'),
+ ('awe','sggdsds','2011-01-01 10:13:11'),
+ ('cde','sgdsgdgsdg','2021-01-01 10:14:11'),
+ ('li','sgdsgd','2023-01-01 12:10:111'),
+ ('voc','gdsgdsgd','2015-01-01 10:10:11');
+ 
+ Задание 2
+ INSERT users  (name,  text, date) VALUES ('Главная новость дня', 'Подробности будут позже...', '2018-01-01 10:10:10');
+ 
+ 
+ 
+ Задание 3
+  DELETE FROM users WHERE name LIKE  = 'o%' AND date <= '2016-01-01 10:10:10';

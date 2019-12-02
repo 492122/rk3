@@ -6,7 +6,6 @@ CREATE TABLE IF NOT EXISTS `users` (
  `name` varchar(20) NOT NULL AUTO_INCREMENT,
  `text` varchar(50) NOT NULL,
  `date` date(20) NOT NULL,
- PRIMARY KEY (`name`)
  ) default charset=utf8;
  INSERT INTO `users` (`name`,`text`,`date`) VALUES
  ('abc','dfgfd','2018-01-01 10:10:11 '),

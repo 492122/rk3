@@ -29,3 +29,6 @@ CREATE TABLE IF NOT EXISTS `users` (
  
  Задание 3
   DELETE FROM users WHERE name LIKE  = 'o%' AND date <= '2016-01-01 10:10:10';
+  
+  
+  //
